@@ -1,0 +1,29 @@
+langchain==0.3.0
+langchain-community==0.3.0
+langchain-chroma==0.1.4
+python-dotenv==1.0.1
+chromadb==0.5.23
+pypdf==4.3.1
+sentence-transformers==3.2.0
+dashscope>=1.26.5
+fastapi>=0.100.0
+uvicorn[standard]>=0.23.0
+colorama>=0.4.6
+pydantic-settings>=2.0.0
+pandas>=2.0.0
+tiktoken>=0.5.0
+tzdata>=2024.1
+
+# 数据库与迁移
+sqlalchemy>=2.0.0
+alembic>=1.13.0
+aiosqlite>=0.19.0
+
+# 认证与安全
+passlib[bcrypt]>=1.7.4
+python-jose[cryptography]>=3.3.0
+bcrypt>=4.0.0
+python-multipart>=0.0.32
+
+# 文档解析
+python-docx>=1.0.0

@@ -1,0 +1,82 @@
+version: "3.8"
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - DASHSCOPE_API_KEY=${DASHSCOPE_API_KEY}
+      - LLM_MODEL=${LLM_MODEL:-qwen-max}
+      - EMBEDDING_PROVIDER=${EMBEDDING_PROVIDER:-dashscope}
+      - EMBEDDING_MODEL=${EMBEDDING_MODEL:-text-embedding-v4}
+      - EMBEDDING_HF_MODEL=${EMBEDDING_HF_MODEL:-sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2}
+      - EMBEDDING_HF_DEVICE=${EMBEDDING_HF_DEVICE:-cpu}
+      - EMBEDDING_HF_MIRROR=${EMBEDDING_HF_MIRROR:-}
+      - EMBEDDING_HF_LOCAL_DIR=${EMBEDDING_HF_LOCAL_DIR:-}
+      - RERANK_ENABLED=${RERANK_ENABLED:-true}
+      - RERANK_MODEL=${RERANK_MODEL:-qwen3-vl-rerank}
+      - RERANK_TOP_N=${RERANK_TOP_N:-3}
+      - RETRIEVER_TOP_K=${RETRIEVER_TOP_K:-10}
+      - CACHE_CAPACITY=${CACHE_CAPACITY:-128}
+      - CACHE_TTL_SECONDS=${CACHE_TTL_SECONDS:-3600}
+      - API_TOKEN=${API_TOKEN:-}
+      - RATE_LIMIT_WINDOW_SECONDS=${RATE_LIMIT_WINDOW_SECONDS:-60}
+      - RATE_LIMIT_MAX_REQUESTS=${RATE_LIMIT_MAX_REQUESTS:-30}
+      - LOG_LEVEL=${LOG_LEVEL:-INFO}
+      - DATABASE_URL=${DATABASE_URL:-sqlite+aiosqlite:///data/issf.db}
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./models:/app/models:ro
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/api/health').read()"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    security_opt:
+      - no-new-privileges
+
+  frontend:
+    image: node:20-alpine
+    working_dir: /app
+    command: sh -c "npm install && npm run dev -- --host 0.0.0.0"
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./frontend:/app
+    environment:
+      - VITE_API_BASE=http://localhost:8000
+
+  mysql:
+    image: mysql:8.0
+    container_name: issf-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-root}
+      MYSQL_DATABASE: ${MYSQL_DATABASE:-issf}
+      MYSQL_USER: ${MYSQL_USER:-issf}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:-issf}
+    ports:
+      - "${MYSQL_PORT:-3306}:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-uroot", "-p${MYSQL_ROOT_PASSWORD}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+    networks:
+      - issf-net
+
+volumes:
+  mysql_data:
+
+networks:
+  issf-net:
+    driver: bridge
