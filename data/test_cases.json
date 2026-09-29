@@ -1,0 +1,975 @@
+[
+  {
+    "id": "TC001",
+    "question": "2026年哪些奥运个人项目的决赛参赛人数统一增加至8人？",
+    "target_doc": "01_finals_and_shootoff.md",
+    "expected_answer": "男子25米速射手枪（Rapid Fire Pistol Men）、男子及女子飞碟多向（Trap Men/Women）、男子及女子飞碟双向（Skeet Men/Women）奥运个人项目。",
+    "keywords": ["8人决赛", "男子25米速射手枪", "飞碟多向", "飞碟双向", "奥运个人项目"]
+  },
+  {
+    "id": "TC002",
+    "question": "10米气步枪混合团体赛取消了什么比赛？如何决出冠亚季军？",
+    "target_doc": "01_finals_and_shootoff.md",
+    "expected_answer": "全面取消了分场的金牌赛（Gold Medal Match）与铜牌赛（Bronze Medal Match）；资格赛前 4 名队伍直接进入同一场单决赛同场竞技，通过累积积分与淘汰机制直接决出金、银、铜牌。",
+    "keywords": ["混合团体", "取消金牌赛铜牌赛", "4队同场", "单决赛", "淘汰机制"]
+  },
+  {
+    "id": "TC003",
+    "question": "倒计数（Countback）规则在飞碟项目中还保留用于什么情况？",
+    "target_doc": "01_finals_and_shootoff.md",
+    "expected_answer": "仅保留用于不影响决赛资格（即第 9 名及以后、未涉及前 8 名及起射号牌争夺）的后续资格赛排名平分打破。",
+    "keywords": ["倒计数", "Countback", "飞碟项目", "资格赛排名", "不涉及前8名"]
+  },
+  {
+    "id": "TC004",
+    "question": "步枪射击服硬度检测仪的压头规格和施加压力是多少？",
+    "target_doc": "02_rifle_clothing_stiffness.md",
+    "expected_answer": "测量圆柱底座直径为 60 毫米，上部接触压板直径为 20 毫米；施加 1000 克（1.0 公斤 / 约 10 牛顿）的标准垂直重锤压力。",
+    "keywords": ["硬度检测仪", "60毫米底座", "1000克重锤", "1.0公斤压力", "步枪射击服"]
+  },
+  {
+    "id": "TC005",
+    "question": "测定皮服硬度时，压力施加后必须在多长时间内达到3.0mm以上形变？",
+    "target_doc": "02_rifle_clothing_stiffness.md",
+    "expected_answer": "在上压板施加标准重锤后，外套上部/较硬区域每个测量点最长限时 30 秒，下部/较软区域每个测量点最长限时 15 秒，形变必须达到大于等于 3.0 毫米（≥ 3.0 mm）。",
+    "keywords": ["3.0mm标准", "形变量", "30秒限时", "15秒限时", "刚度检测"]
+  },
+  {
+    "id": "TC006",
+    "question": "如果在决赛后的随机抽检中，皮服复测下沉量为 2.9 mm，会受到什么惩罚？",
+    "target_doc": "02_rifle_clothing_stiffness.md",
+    "expected_answer": "下沉量 < 3.0 mm 判定为不合格。若仅有 1 个测试面板复测不合格且其余合格，给予 EQ-Warning 书面警告并保留当场成绩；若同一件服装有 2 个或 2 个以上测试面板复测低于 3.0 mm，赛后抽检将直接取消比赛成绩与资格（DSQ）。",
+    "keywords": ["2.9mm", "硬度不合格", "单面板警告豁免", "2个面板失败", "DSQ"]
+  },
+  {
+    "id": "TC007",
+    "question": "实时瞄准轨迹技术（Live Aiming Trace）主要应用在哪些项目的决赛转播中？",
+    "target_doc": "03_tech_var_aiming.md",
+    "expected_answer": "主要应用于步枪与手枪项目决赛（首期重点应用于 10 米气步枪决赛，后续推广至 50 米步枪及气手枪决赛）。",
+    "keywords": ["Live Aiming", "实时瞄准轨迹", "10米气步枪", "步手枪决赛", "体育展示"]
+  },
+  {
+    "id": "TC008",
+    "question": "飞碟项目引入VAR（视频助理裁判系统）的主要作用是什么？",
+    "target_doc": "03_tech_var_aiming.md",
+    "expected_answer": "协助主裁判及仲裁组对盘碟在空中的状态进行高精度慢动作回放复核，精确判定争议靶是否为“击中（HIT/碎片脱落）”或“未中（LOST）”。",
+    "keywords": ["飞碟VAR", "视频助理裁判", "慢动作回放", "HIT/LOST", "争议靶判定"]
+  },
+  {
+    "id": "TC009",
+    "question": "10米气步枪资格赛男子和女子的发数及电子靶比赛用时是多少？",
+    "target_doc": "04_10m_air_rifle_basics.md",
+    "expected_answer": "男子与女子个人资格赛发数均为 60 发；使用电子靶（EST）时，正式 MATCH 比赛用时为 75 分钟（1 小时 15 分钟）。",
+    "keywords": ["10米气步枪", "资格赛60发", "75分钟", "EST电子靶", "比赛用时"]
+  },
+  {
+    "id": "TC010",
+    "question": "10米气步枪的10环（内十环）直径是多少毫米？",
+    "target_doc": "04_10m_air_rifle_basics.md",
+    "expected_answer": "10米气步枪 10 环（十环）靶心白色圆点直径仅为 0.5 毫米（允许 ±0.1mm 公差）。",
+    "keywords": ["10米气步枪", "10环直径", "0.5毫米", "白色圆点", "靶纸规格"]
+  },
+  {
+    "id": "TC011",
+    "question": "10米气步枪枪支的最大允许重量是多少公斤？",
+    "target_doc": "04_10m_air_rifle_basics.md",
+    "expected_answer": "枪支总重（含瞄准具、所有附件及配重）不得超过 5.50 公斤。",
+    "keywords": ["10米气步枪", "枪支重量上限", "5.50公斤", "器材限制"]
+  },
+  {
+    "id": "TC012",
+    "question": "25米手枪速射比赛包含哪三个速射组别？",
+    "target_doc": "05_25m_rapid_fire_pistol.md",
+    "expected_answer": "包含 8 秒组（限时 8 秒）、6 秒组（限时 6 秒）和 4 秒组（限时 4 秒）三个速射组别。",
+    "keywords": ["25米手枪速射", "8秒组", "6秒组", "4秒组", "5发速射"]
+  },
+  {
+    "id": "TC013",
+    "question": "25米手枪速射中，45度准备姿势有什么规定？",
+    "target_doc": "05_25m_rapid_fire_pistol.md",
+    "expected_answer": "持枪手臂必须自然下垂，枪管下指，手臂与垂直线夹角不得大于 45 度；枪支及手臂不得依托桌台，在绿灯亮起/目标转正前不得提前抬臂。",
+    "keywords": ["25米手枪速射", "READY姿势", "45度角", "手臂下垂", "不得提前抬臂"]
+  },
+  {
+    "id": "TC014",
+    "question": "在25米手枪速射中，如果绿灯亮起前枪管提前抬起会怎么判罚？",
+    "target_doc": "05_25m_rapid_fire_pistol.md",
+    "expected_answer": "同一半场首次违规给予黄牌警告并重射该组（按原组与重射组中每个靶的最低有效环值计分）；第二次违规警告重射并额外扣除 2 环；第三次违规直接出示红卡取消比赛资格（DSQ）。",
+    "keywords": ["准备姿势违规", "抢起枪", "黄牌警告重射", "扣2环", "第三次DSQ"]
+  },
+  {
+    "id": "TC015",
+    "question": "在非射击状态下，所有枪支必须插入什么工具？起什么作用？",
+    "target_doc": "06_safety_and_range_discipline.md",
+    "expected_answer": "必须强制插入安全旗（Safety Flag / 空膛指示器 ECI），用于直观证明枪膛为空且枪机处于完全打开状态。",
+    "keywords": ["安全旗", "Safety Flag", "ECI", "空膛指示器", "枪机打开"]
+  },
+  {
+    "id": "TC016",
+    "question": "听到裁判发出“STOP”或“UNLOAD”口令后，运动员应该怎么做？",
+    "target_doc": "06_safety_and_range_discipline.md",
+    "expected_answer": "必须立即停止扣动扳机及一切射击动作，按指令安全卸载枪支、清空枪膛、放下枪支，并恢复安全状态（插入安全旗或开膛）。",
+    "keywords": ["STOP口令", "UNLOAD口令", "立即停止射击", "清空枪膛", "安全状态"]
+  },
+  {
+    "id": "TC017",
+    "question": "如果在靶场将枪口指向他人会受到什么惩罚？",
+    "target_doc": "06_safety_and_range_discipline.md",
+    "expected_answer": "枪口指向非安全方向或指向他人属于重大安全违规，视情节严重程度及风险级别，由裁判组给予警告或直接判罚取消比赛资格（DSQ）。",
+    "keywords": ["危险枪口指向", "靶场安全", "警告", "DSQ", "取消比赛资格"]
+  },
+  {
+    "id": "TC018",
+    "question": "步枪射击鞋的鞋底有什么要求？",
+    "target_doc": "07_shooting_shoes_and_gloves.md",
+    "expected_answer": "脚趾处鞋底最大厚度≤10mm，鞋底外延≤5.0mm，严禁切成直角方形；且必须通过 15 N·m 扭矩下前脚掌弯曲角度至少达 22.5° 的柔韧性测试。",
+    "keywords": ["步枪射击鞋", "鞋底厚度10mm", "外延5mm", "弯曲度测试", "22.5度"]
+  },
+  {
+    "id": "TC019",
+    "question": "射击手套手背及掌心衬垫的总厚度最大不得超过多少？",
+    "target_doc": "07_shooting_shoes_and_gloves.md",
+    "expected_answer": "手套前背与掌心材料的总厚度（含衬垫），在 ISSF 专用测厚仪标准压力下，最大不得超过 12 毫米。",
+    "keywords": ["步枪手套", "总厚度", "12毫米", "测厚仪", "支撑手"]
+  },
+  {
+    "id": "TC020",
+    "question": "射击手套向前延伸不得超过手腕关节线多少距离？",
+    "target_doc": "07_shooting_shoes_and_gloves.md",
+    "expected_answer": "手套从手腕关节中心线向手臂方向延伸最大不得超过 50 毫米。",
+    "keywords": ["步枪手套", "手腕延伸", "50毫米", "紧固扣带禁用"]
+  },
+  {
+    "id": "TC021",
+    "question": "10米气手枪资格赛的持枪姿势有什么规定？",
+    "target_doc": "08_10m_air_pistol.md",
+    "expected_answer": "运动员必须单手无支撑站立射击，手腕及手臂必须完全悬空，不得接触身体任何部位或任何外在支撑物。",
+    "keywords": ["10米气手枪", "单手站立", "无支撑", "手臂悬空"]
+  },
+  {
+    "id": "TC022",
+    "question": "10米气手枪的最小扳机扣力和枪支重量上限是多少？",
+    "target_doc": "08_10m_air_pistol.md",
+    "expected_answer": "扳机扣力必须能承受 500 克标准砝码；枪支总重（含配重及附件）不得超过 1.5 公斤（1500g）。",
+    "keywords": ["10米气手枪", "扳机扣力500g", "枪重上限1.5kg", "装备检测"]
+  },
+  {
+    "id": "TC023",
+    "question": "10米气手枪的检查盒尺寸限制是多少？",
+    "target_doc": "08_10m_air_pistol.md",
+    "expected_answer": "枪支必须能完全放入内壁尺寸为 420mm × 200mm × 50mm 的专用检查盒内。",
+    "keywords": ["10米气手枪", "检查盒尺寸", "420mm", "200mm", "50mm"]
+  },
+  {
+    "id": "TC024",
+    "question": "50米步枪三姿标准赛制（3×20）总共射击多少发？分别包含哪些姿势？",
+    "target_doc": "09_50m_rifle_3_positions.md",
+    "expected_answer": "资格赛统一采用 3×20 赛制，总计射击 60 发正式记分弹，依次包含跪姿 20 发、卧姿 20 发、立姿 20 发。",
+    "keywords": ["50米步枪三姿", "3x20赛制", "60发记分弹", "跪姿", "卧姿", "立姿"]
+  },
+  {
+    "id": "TC025",
+    "question": "50米步枪三姿的三种姿势强制顺序是怎样的？",
+    "target_doc": "09_50m_rifle_3_positions.md",
+    "expected_answer": "必须严格按照 1. 跪姿（Kneeling） → 2. 卧姿（Prone） → 3. 立姿（Standing） 的固定顺序完成，不可颠倒或中途返回。",
+    "keywords": ["50米步枪三姿", "姿势顺序", "跪姿", "卧姿", "立姿", "不可颠倒"]
+  },
+  {
+    "id": "TC026",
+    "question": "50米步枪三姿在转换姿势后的试射发数有限制吗？消耗时间算在哪？",
+    "target_doc": "09_50m_rifle_3_positions.md",
+    "expected_answer": "姿势转换后的中途试射发数不限，但消耗的时间全部计入 90 分钟（1小时30分钟）的总限时块内。",
+    "keywords": ["姿势转换", "试射不限发数", "90分钟总限时", "50米步枪三姿"]
+  },
+  {
+    "id": "TC027",
+    "question": "飞碟比赛中裁定“击中（HIT/破靶）”的必备标准是什么？",
+    "target_doc": "10_shotgun_trap_skeet_basics.md",
+    "expected_answer": "碟靶在射击界限以内被击中，且裁判员（或 VAR 视频回放）观察到有可见的碎片（Visible Piece）从碟靶上脱落（或彩粉靶喷出可见粉尘云）。",
+    "keywords": ["飞碟HIT", "击中判定", "可见碎片", "Visible Piece", "射击界限"]
+  },
+  {
+    "id": "TC028",
+    "question": "多向飞碟（Trap）资格赛中，每靶最多允许击发几枪？",
+    "target_doc": "10_shotgun_trap_skeet_basics.md",
+    "expected_answer": "男子与女子个人资格赛中，每靶最多允许击发 2 枪（第1发未中可用第2发补射）；混合团体资格赛及决赛每靶仅限 1 枪。",
+    "keywords": ["多向飞碟", "Trap qualification", "最多2枪", "补射"]
+  },
+  {
+    "id": "TC029",
+    "question": "双向飞碟（Skeet）资格赛中，每靶允许击发几枪？",
+    "target_doc": "10_shotgun_trap_skeet_basics.md",
+    "expected_answer": "无论是资格赛还是决赛，双向飞碟每靶均仅允许击发 1 枪。",
+    "keywords": ["双向飞碟", "Skeet", "单靶1枪", "击发限制"]
+  },
+  {
+    "id": "TC030",
+    "question": "现场口头抗议（Verbal Protest）的时效和费用是多少？",
+    "target_doc": "11_protests_and_appeals.md",
+    "expected_answer": "成绩异议步手枪项目须在成绩公布后 20 分钟内提出（飞碟为 10 分钟内）；现场口头抗议免收任何费用。",
+    "keywords": ["口头抗议", "20分钟时效", "免收费用", "成绩异议"]
+  },
+  {
+    "id": "TC031",
+    "question": "提交正式书面申诉需要缴纳多少申诉费？如果申诉成功会退费吗？",
+    "target_doc": "11_protests_and_appeals.md",
+    "expected_answer": "提交书面抗议费为 50 欧元，向仲裁委员会提起申诉（Appeal）费用为 100 欧元；若申诉成功将全额退还，申诉被驳回则不予退还。",
+    "keywords": ["书面申诉", "申诉费100欧元", "抗议费50欧元", "成功全额退费", "驳回不退"]
+  },
+  {
+    "id": "TC032",
+    "question": "如果运动员申请电子靶分值复核（EST Challenge），结果证明电子靶没有问题会怎样？",
+    "target_doc": "11_protests_and_appeals.md",
+    "expected_answer": "若复核判定系统记录无误（偏差不成立），维持原成绩，并扣除 50 欧元的复核费（若证实电子靶故障则退还该费用）。",
+    "keywords": ["EST Challenge", "电子靶复核", "偏差不成立", "扣除50欧元", "控制纸带比对"]
+  },
+  {
+    "id": "TC033",
+    "question": "25米标准手枪比赛分为哪三个速射阶段？使用的子弹规格是什么？",
+    "target_doc": "12_25m_standard_center_fire_pistol.md",
+    "expected_answer": "分为 150 秒阶段（慢射/精准）、20 秒阶段（限时）和 10 秒阶段（速射）；采用 5.6 毫米（.22 LR）边缘发火子弹。",
+    "keywords": ["25米标准手枪", "150秒组", "20秒组", "10秒组", ".22 LR子弹"]
+  },
+  {
+    "id": "TC034",
+    "question": "25米中心发火手枪速射阶段的灯光轮转节奏是怎样的？",
+    "target_doc": "12_25m_standard_center_fire_pistol.md",
+    "expected_answer": "按绿灯亮（靶正）3 秒、红灯亮（靶侧）7 秒循环轮转，射手需在绿灯亮起的 3 秒内完成起枪与击发 1 发，红灯 7 秒间歇保持 45 度预备姿势。",
+    "keywords": ["25米中心发火手枪", "速射阶段", "绿灯3秒", "红灯7秒", "45度姿势"]
+  },
+  {
+    "id": "TC035",
+    "question": "25米中心发火手枪慢射阶段共几发？分为几组？",
+    "target_doc": "12_25m_standard_center_fire_pistol.md",
+    "expected_answer": "慢射阶段共 30 发，分为 6 组，每组 5 发，每组限时 5 分钟。",
+    "keywords": ["中心发火手枪", "慢射阶段", "30发", "6组", "每组5分钟"]
+  },
+  {
+    "id": "TC036",
+    "question": "β-受体阻断剂为什么在射击项目中被赛内及赛外全程禁用？",
+    "target_doc": "13_doping_control_and_medical.md",
+    "expected_answer": "因为 β-受体阻断剂能显著降低心率并抑制手部及身体生理震颤，为精细稳态射击提供不公平的外力协助，因此属于全程绝对禁用的 P1 类禁药。",
+    "keywords": ["β-受体阻断剂", "Beta-Blockers", "P1类禁药", "降低心率", "全程禁用"]
+  },
+  {
+    "id": "TC037",
+    "question": "运动员因正规疾病需要服用含有禁用成分的药物时，必须向 ISSF 申请什么证书？",
+    "target_doc": "13_doping_control_and_medical.md",
+    "expected_answer": "必须提前（通常至少提前30天）向 ITA / ISSF 申请并获得正式批准的 TUE（治疗用药豁免证书，Therapeutic Use Exemption）。",
+    "keywords": ["TUE", "治疗用药豁免", "ITA", "事前申请", "ADAMS"]
+  },
+  {
+    "id": "TC038",
+    "question": "步手枪资格赛同分平分打破（Tie-Breaking）时，优先比较什么？",
+    "target_doc": "14_rifle_pistol_tie_breaking.md",
+    "expected_answer": "在整数计分项目中优先比较全场内十环（Inner Tens，标记为 * 或 X）的总数量；在小数计分项目中优先比较最后一组（最后10发）的小数成绩倒计数。",
+    "keywords": ["平分打破", "Tie-Breaking", "内十环", "Inner Tens", "倒计数"]
+  },
+  {
+    "id": "TC039",
+    "question": "步手枪资格赛如果内十环数量相同，第二顺位比较什么？",
+    "target_doc": "14_rifle_pistol_tie_breaking.md",
+    "expected_answer": "比较资格赛最后一组（最后 10 发）的整环累计成绩（Series Countback）；若仍相同则依次向前倒推前面各组成绩。",
+    "keywords": ["资格赛平分", "倒计数", "Series Countback", "最后一组成绩"]
+  },
+  {
+    "id": "TC040",
+    "question": "在小数计分法（Decimal Scoring）中，单发最高环值是多少？10发满分是多少？",
+    "target_doc": "15_scoring_decimal_and_integer.md",
+    "expected_answer": "单发最高成绩为 10.9 环（弹孔中心与靶心完全重合）；每 10 发满分为 109.0 环。",
+    "keywords": ["小数计分", "10.9环", "109.0环满分", "EST电子靶"]
+  },
+  {
+    "id": "TC041",
+    "question": "整数计分法中，弹孔触及内十环线标记为什么？有什么用？",
+    "target_doc": "15_scoring_decimal_and_integer.md",
+    "expected_answer": "记为 10*（或 X），成绩登记为整数 10 环，内十环标记仅用于资格赛同分平分打破（Tie-breaking）。",
+    "keywords": ["整数计分", "内十环", "10*", "X环", "平分打破"]
+  },
+  {
+    "id": "TC042",
+    "question": "气步枪和气手枪的压缩空气瓶（Air Cylinders）使用年限上限是多少年？",
+    "target_doc": "16_equipment_control_workflow.md",
+    "expected_answer": "必须在制造厂规定的安全有效期内，最长不得超过 10 年，超期气瓶严禁带入靶场。",
+    "keywords": ["压缩气瓶", "安全有效期", "10年上限", "装备检查"]
+  },
+  {
+    "id": "TC043",
+    "question": "经过赛前装备检查合格的设备上会贴上什么标识？",
+    "target_doc": "16_equipment_control_workflow.md",
+    "expected_answer": "枪支贴上官方验枪合格贴纸（Control Sticker），皮服挂上带有唯一序列号的 ISSF 防拆封密封扣（Seal）。",
+    "keywords": ["装备检查", "合格贴纸", "Control Sticker", "ISSF密封扣", "防拆封"]
+  },
+  {
+    "id": "TC044",
+    "question": "步枪射击外套及射击裤本体单层厚度和双层搭接厚度的上限分别是多少？",
+    "target_doc": "17_rifle_clothing_specs.md",
+    "expected_answer": "单层厚度上限不得超过 2.5 毫米；双层/重叠部分（如缝线或加固片）厚度上限不得超过 5.0 毫米。",
+    "keywords": ["皮服厚度", "单层2.5mm", "双层5.0mm", "射击外套", "射击裤"]
+  },
+  {
+    "id": "TC045",
+    "question": "步枪射击外套按扣扣合后，前襟重叠区域最大宽度不得超过多少毫米？",
+    "target_doc": "17_rifle_clothing_specs.md",
+    "expected_answer": "外套按扣扣合后，前襟搭接重合的宽度在自然状态下最大不得超过 100 毫米。",
+    "keywords": ["射击外套", "前襟搭接", "最大宽度100mm", "尺寸规范"]
+  },
+  {
+    "id": "TC046",
+    "question": "射击裤裤腰高度不得高于自然腰线多少毫米？裤腰上最多允许设置几个皮带环？",
+    "target_doc": "17_rifle_clothing_specs.md",
+    "expected_answer": "裤腰上缘不得高于髋骨上脊（Crest of the hipbone）以上 50 毫米；裤腰上最多允许设置 7 个皮带环。",
+    "keywords": ["射击裤", "裤腰高度50mm", "髋骨上脊", "7个皮带环"]
+  },
+  {
+    "id": "TC047",
+    "question": "在2026年最新硬度检测中，射击皮服的双层较硬区域 and 单层较软区域的测试响应时间分别是什么？",
+    "target_doc": "02_rifle_clothing_stiffness.md",
+    "expected_answer": "较硬区域（Upper/Stiffer Areas，如外套后背上部）每个测量点最长限时 30 秒；较软区域（Lower/Less Stiff Areas，其余板件及射击裤）每个测量点最长限时 15 秒。",
+    "keywords": ["硬度测试", "较硬区域30秒", "较软区域15秒", "测量限时", "刚度检测"]
+  },
+  {
+    "id": "TC048",
+    "question": "根据2026新规，在装备检查期间，若整件皮服仅发现1个测试板不合格（≤ 2.9 mm）如何处理？会直接被取消资格吗？",
+    "target_doc": "02_rifle_clothing_stiffness.md",
+    "expected_answer": "不直接取消资格。重新校准设备对该面板复测，若仍不合格但服装其余面板全部合格，开具书面警告（EQ-Warning），剪除封条，允许在“当天、该项目”中继续使用完成比赛，后续比赛前须整改重新送检。",
+    "keywords": ["单面板豁免", "EQ-Warning", "不直接DSQ", "当天单项有效", "整改复检"]
+  },
+  {
+    "id": "TC049",
+    "question": "在步枪外套搭接宽松度测试中，使用的是多少公斤拉力的专用搭接测量规？",
+    "target_doc": "17_rifle_clothing_specs.md",
+    "expected_answer": "使用施加 6.0 公斤至 8.0 公斤（kg）拉力的专用搭接测量拉力计（Overlap Gauge），测试扣眼超越按扣中心线的重叠量是否 ≥ 80 毫米。",
+    "keywords": ["Overlap Gauge", "6.0-8.0kg拉力", "80mm Overlap", "搭接测试"]
+  },
+  {
+    "id": "TC050",
+    "question": "10米气步枪和气手枪个人决赛的第一阶段（基础射击阶段）包含几发？每组发射时间限制是多少秒？",
+    "target_doc": "18_10m_individual_finals.md",
+    "expected_answer": "第一阶段包含 2 组射击，每组 5 发（总计 10 发）；每组 5 发的发射限时为 250 秒。",
+    "keywords": ["10米个人决赛", "基础阶段10发", "2组5发", "限时250秒"]
+  },
+  {
+    "id": "TC051",
+    "question": "在10米气手枪个人决赛的淘汰射击阶段中，单发依次射击限时是多少秒？",
+    "target_doc": "18_10m_individual_finals.md",
+    "expected_answer": "单发依次淘汰射击阶段，每发单发的限时均为 50 秒。",
+    "keywords": ["10米气手枪决赛", "淘汰阶段", "单发限时50秒"]
+  },
+  {
+    "id": "TC052",
+    "question": "10米个人决赛中，在累计发射第几发后淘汰第一位（第8名）选手？后续以什么频次淘汰？",
+    "target_doc": "18_10m_individual_finals.md",
+    "expected_answer": "第 12 发结束淘汰第 8 名；此后每射击 2 发淘汰 1 名选手（第14发淘汰第7名、第16发淘汰第6名……第24发决出冠军）。",
+    "keywords": ["10米决赛淘汰", "第12发淘汰第8名", "每2发淘汰1人", "24发渐进淘汰"]
+  },
+  {
+    "id": "TC053",
+    "question": "在10米决赛淘汰节点如果出现两名选手累计成绩完全相同，如何决定淘汰名次？",
+    "target_doc": "18_10m_individual_finals.md",
+    "expected_answer": "立即进行单发同分附加赛（Shoot-off），单发限时 50 秒。若第一发打平，绝对禁止比较内十环或倒计数，必须继续射击第二发附加赛，直至分出胜负。",
+    "keywords": ["决赛附加赛", "Shoot-off", "单发50秒", "严禁倒计数", "无限单发决胜"]
+  },
+  {
+    "id": "TC054",
+    "question": "女子25米手枪资格赛中，精准阶段和速射阶段分别包含多少发？",
+    "target_doc": "19_25m_womens_pistol_hit_miss.md",
+    "expected_answer": "资格赛共 60 发，精准阶段（每组5分）30 发，速射阶段（绿3秒红7秒）30 发，各包含 6 组，每组 5 发。",
+    "keywords": ["女子25米手枪", "资格赛60发", "精准阶段30发", "速射阶段30发"]
+  },
+  {
+    "id": "TC055",
+    "question": "女子25米手枪决赛采用什么计分法？中靶（Hit）和未中（Miss）的分水岭精确环值是多少？",
+    "target_doc": "19_25m_womens_pistol_hit_miss.md",
+    "expected_answer": "决赛采用 Hit-Miss 计分法；单发精确环值达到 10.2 环及以上（≥ 10.2 环）判定为 Hit（1分），低于 10.2 环（≤ 10.1 环）判定为 Miss（0分）。",
+    "keywords": ["女子25米手枪决赛", "Hit-Miss", "10.2环判定线", "≥10.2中靶"]
+  },
+  {
+    "id": "TC056",
+    "question": "女子25米手枪资格赛速射阶段的灯光轮转节奏是什么？手枪姿势在红灯时如何规定？",
+    "target_doc": "19_25m_womens_pistol_hit_miss.md",
+    "expected_answer": "绿灯亮起 3 秒（靶正），红灯关闭 7 秒（靶侧）轮转；红灯 7 秒间隔期间运动员必须将持枪手臂降至 45 度预备姿势。",
+    "keywords": ["速射节奏", "绿灯3秒", "红灯7秒", "45度预备姿势"]
+  },
+  {
+    "id": "TC057",
+    "question": "步枪外套正面的纽扣或按扣的最大直径和中心点间距有何限制？",
+    "target_doc": "20_rifle_clothing_fasteners_undergarments.md",
+    "expected_answer": "规则建议外套前襟使用 5 颗纽扣固定，闭合必须为非调节性固定；扣眼四周加固半径不得超过 12 毫米，按扣扣合后必须能通过 80 毫米搭接重叠拉伸测试。",
+    "keywords": ["步枪外套扣件", "前襟5纽扣", "加固半径12mm", "80mm搭接测试"]
+  },
+  {
+    "id": "TC058",
+    "question": "2026年最新规则中，步枪外套正面闭合处严禁使用哪些扣件配件？",
+    "target_doc": "20_rifle_clothing_fasteners_undergarments.md",
+    "expected_answer": "严禁使用触控紧固带（如魔术贴 Velcro）、可微调金属卡扣、索具或带锁拉带作为主闭合手段。",
+    "keywords": ["魔术贴禁用", "Velcro禁用", "微调卡扣禁用", "外套闭合"]
+  },
+  {
+    "id": "TC059",
+    "question": "射击皮服内部允许穿着几层贴身内衣？单层最大厚度限制是多少？",
+    "target_doc": "20_rifle_clothing_fasteners_undergarments.md",
+    "expected_answer": "允许穿着普通贴身内衣/训练服，单层材质厚度最大不得超过 2.5 毫米；衣物折叠或缝线重叠区域总厚度最大不得超过 5.0 毫米。",
+    "keywords": ["贴身内衣", "单层厚度2.5mm", "重叠厚度5.0mm", "非法支撑禁用"]
+  },
+  {
+    "id": "TC060",
+    "question": "比赛射击期间，射击裤身上的开口和拉链必须处于什么状态？",
+    "target_doc": "20_rifle_clothing_fasteners_undergarments.md",
+    "expected_answer": "射击裤腿部和臀部必须保持自然宽松状态，严禁通过拉紧拉链、抽紧拉绳或扣紧按扣强行包裹大腿、膝关节或臀部形成非法支撑。",
+    "keywords": ["射击裤拉链", "禁止包裹强拉", "宽松状态", "自然悬挂"]
+  },
+  {
+    "id": "TC061",
+    "question": "2026年新版50米步枪三姿决赛缩减为多少发？跪姿和卧姿各进行几发？",
+    "target_doc": "21_50m_rifle_3_positions_finals.md",
+    "expected_answer": "决赛全面启用 35 发新赛制；跪姿阶段进行 10 发竞赛射击，卧姿阶段进行 10 发竞赛射击，立姿阶段进行 15 发（包含淘汰射击）。",
+    "keywords": ["50米步枪三姿决赛", "35发新赛制", "跪姿10发", "卧姿10发", "立姿15发"]
+  },
+  {
+    "id": "TC062",
+    "question": "50米步枪三姿决赛立姿淘汰阶段中，在累计发射第几发结束后开始淘汰选手？首轮淘汰几个人？",
+    "target_doc": "21_50m_rifle_3_positions_finals.md",
+    "expected_answer": "在累计发射第 30 发结束（即立姿基础 10 发打完）后进行首次淘汰，首轮同时淘汰累积总成绩排名第 8 名和第 7 名的 2 名选手。",
+    "keywords": ["三姿决赛淘汰", "第30发淘汰", "首轮淘汰第7第8名", "淘汰2人"]
+  },
+  {
+    "id": "TC063",
+    "question": "50米步枪三姿决赛跪姿和卧姿每组5发的射击限时分别是什么？",
+    "target_doc": "21_50m_rifle_3_positions_finals.md",
+    "expected_answer": "2026 新规下，跪姿 10 发、卧姿 10 发以及中途的姿势转换与立姿试射合并在一个不间断的 22 分钟（22 minutes）总限时块内完成。",
+    "keywords": ["跪姿卧姿合并限时", "22分钟", "三姿决赛新规", "连续时间块"]
+  },
+  {
+    "id": "TC064",
+    "question": "25米手枪速射决赛全程采用几秒组别？中靶（Hit）和未中（Miss）的分界线是多少环？",
+    "target_doc": "22_25m_rapid_fire_pistol_finals.md",
+    "expected_answer": "决赛全程采用 4 秒速射组别（每组 5 发）；单发电子靶成绩达到 9.7 环及以上（≥ 9.7 环）计 1 个 Hit，低于 9.7 环（≤ 9.6 环）计 0 分（Miss）。",
+    "keywords": ["25米手枪速射决赛", "4秒组", "Hit判定线9.7环", "≥9.7中靶"]
+  },
+  {
+    "id": "TC065",
+    "question": "25米手枪速射决赛第一阶段（基础射击阶段）包含几组速射？在累计多少发后淘汰第一批选手？",
+    "target_doc": "22_25m_rapid_fire_pistol_finals.md",
+    "expected_answer": "基础射击阶段包含 4 组（每组5发，共 20 发）4 秒速射；在第 4 组（第 20 发）结束后，淘汰累计 Hit 数最低的第 8 名和第 7 名共 2 名选手。",
+    "keywords": ["手枪速射8人决赛", "基础阶段4组", "第20发淘汰", "淘汰第7第8名"]
+  },
+  {
+    "id": "TC066",
+    "question": "25米手枪速射决赛中如果发生淘汰名次平分，加赛规则是什么？",
+    "target_doc": "22_25m_rapid_fire_pistol_finals.md",
+    "expected_answer": "同分选手必须加赛一组 5 发 4 秒速射，直到打破平分决定淘汰名次。",
+    "keywords": ["速射附加赛", "Shoot-off", "加赛1组5发", "4秒速射"]
+  },
+  {
+    "id": "TC067",
+    "question": "在2026年飞碟项目决赛中，各队教练可以申请多少次“教练暂停”？时长限制是多少？",
+    "target_doc": "23_shotgun_timeout_and_modifications.md",
+    "expected_answer": "每场决赛中，每个选手/队伍仅允许申请一（1）次教练暂停（Coaching Timeout），最大时长限制为 30 秒。",
+    "keywords": ["飞碟决赛", "教练暂停", "Coaching Timeout", "仅1次", "30秒限时"]
+  },
+  {
+    "id": "TC068",
+    "question": "飞碟枪支因安全红线限制，严禁在枪管或机匣等结构上进行什么非专业改装？",
+    "target_doc": "23_shotgun_timeout_and_modifications.md",
+    "expected_answer": "枪管排气孔（Barrel Porting）从枪口最前端向后延伸的物理开孔区域绝对不得超过 20 厘米（200 毫米），超越此界限判定为枪支不合格。",
+    "keywords": ["飞碟枪管排气孔", "Barrel Porting", "20厘米界限", "装备检查"]
+  },
+  {
+    "id": "TC069",
+    "question": "步枪与手枪项目允许在哪里进行枪支的空枪/干火模拟练习？",
+    "target_doc": "24_rifle_pistol_dry_firing.md",
+    "expected_answer": "只能在靶场官方指定的“干火练习区”进行，或在听到允许口令后的比赛个人射击靶位上（On the Firing Line）进行。",
+    "keywords": ["干火练习", "Dry Firing", "指定练习区", "靶位口令"]
+  },
+  {
+    "id": "TC070",
+    "question": "运动员在个人靶位上，必须听到裁判长（CRO）发出什么口令后才能进行空枪干火模拟？",
+    "target_doc": "24_rifle_pistol_dry_firing.md",
+    "expected_answer": "资格赛须听到“ATHLETES TO THE LINE”口令后；决赛必须听到“PREPARATION AND SIGHTING TIME... START”口令后方可拔出安全旗进行干火练习。",
+    "keywords": ["干火练习口令", "ATHLETES TO THE LINE", "准备试射口令", "拔安全旗"]
+  },
+  {
+    "id": "TC071",
+    "question": "运动员若在观众席、走廊等非指定区域私自进行模拟空枪练习，首次违规将如何处罚？",
+    "target_doc": "24_rifle_pistol_dry_firing.md",
+    "expected_answer": "在非指定区域或非允许时间段干火练习，首次违规由 Jury 或裁判出示黄卡（Yellow Card）给予警告（Warning）。",
+    "keywords": ["非法区域干火", "首次违规", "黄卡警告", "Yellow Card"]
+  },
+  {
+    "id": "TC072",
+    "question": "若收到警告后仍继续在非允许区域进行空枪干火操作，第二次违规将被处以什么惩罚？",
+    "target_doc": "24_rifle_pistol_dry_firing.md",
+    "expected_answer": "警告后再次违反，裁判将出示绿卡（Green Card）给予扣分处罚（资格赛当场第一组扣 2 环；决赛每次扣 1 环或扣 1 发命中）。",
+    "keywords": ["再次违规干火", "绿卡扣分", "Green Card", "扣2环"]
+  },
+  {
+    "id": "TC073",
+    "question": "在比赛靶场（FOP）的所有区域，运动员允许赤脚或仅穿袜子进行射击比赛或停留吗？",
+    "target_doc": "25_clothing_standards_and_bare_feet_prohibition.md",
+    "expected_answer": "绝对不允许赤脚（Bare Feet）或仅穿着袜子（Only Socks）。必须始终穿着符合项目规范的射击鞋/靴，或封闭式运动鞋。",
+    "keywords": ["严禁赤脚", "严禁仅穿袜子", "FOP区域", "着装规范", "封闭式鞋具"]
+  },
+  {
+    "id": "TC074",
+    "question": "在实弹射击期间，在靶位上的所有人员必须佩戴什么防护装备？不佩戴如何处理？",
+    "target_doc": "25_clothing_standards_and_bare_feet_prohibition.md",
+    "expected_answer": "必须佩戴听力保护装置（传统耳罩或耳塞）；严禁佩戴带有声音放大或无线/有线通讯接收功能的电子耳罩，违规者将面临黄牌警告、绿卡扣分甚至红卡 DSQ 处罚。",
+    "keywords": ["听力保护", "耳罩", "电子通讯耳罩禁用", "黄卡警告", "DSQ"]
+  },
+  {
+    "id": "TC075",
+    "question": "飞碟项目出于安全防碎屑考虑，对视力保护有什么强制要求？",
+    "target_doc": "25_clothing_standards_and_bare_feet_prohibition.md",
+    "expected_answer": "飞碟项目（Trap 与 Skeet）所有运动员及裁判在场上必须强制佩戴符合安全标准的防护眼镜/护目镜；未佩戴者黄卡警告，第二次未佩戴处以绿卡扣除 1 发命中。",
+    "keywords": ["飞碟护目镜", "强制佩戴", "视力保护", "黄卡警告", "扣1发命中"]
+  },
+  {
+    "id": "TC076",
+    "question": "双向飞碟（Skeet）8人制个人决赛中，基础射击阶段包含几靶？首轮淘汰哪两个名次？",
+    "target_doc": "26_shotgun_finals_target_counts.md",
+    "expected_answer": "基础射击阶段包含 12 个靶子（3、4、5 号靶站）；第 12 靶结束累积成绩最低的第 8 名和第 7 名同时被淘汰。",
+    "keywords": ["双向飞碟决赛", "8人制", "基础12靶", "第12靶淘汰", "淘汰第7第8名"]
+  },
+  {
+    "id": "TC077",
+    "question": "多向飞碟（Trap）个人决赛中，金牌决战在打满多少靶后进行？最多可以击发多少靶？",
+    "target_doc": "26_shotgun_finals_target_counts.md",
+    "expected_answer": "多向飞碟 8 人决赛最多击发 30 靶；最后存留的两名选手在打满总计 30 靶后，根据总命中数直接决出金牌与银牌。",
+    "keywords": ["多向飞碟决赛", "30靶制", "金牌决战", "8人淘汰制"]
+  },
+  {
+    "id": "TC078",
+    "question": "25米手枪速射比赛中，边缘发火子弹（.22 LR）的单个弹头重量和平均初速最低标准是多少？",
+    "target_doc": "27_25m_rfp_ammunition_velocity.md",
+    "expected_answer": "单个弹头重量必须 ≥ 2.53 克（39格令）；击发产生的平均初速必须 ≥ 250.0 米/秒（m/sec）。",
+    "keywords": ["速射弹药检测", "弹头重量2.53g", "初速250m/s", ".22 LR子弹"]
+  },
+  {
+    "id": "TC079",
+    "question": "25米手枪速射弹药初速抽检测试中，首轮发射几发？若不合格需继续补射几发？",
+    "target_doc": "27_25m_rfp_ammunition_velocity.md",
+    "expected_answer": "使用本人手枪首轮发射 3 发；若 3 发平均初速低于 250.0 m/s，须立即加测发射剩余的 3 发（累计测试 6 发计算平均初速）。",
+    "keywords": ["速射初速测试", "首轮3发", "加测3发", "累计6发", "Garmin测速仪"]
+  },
+  {
+    "id": "TC080",
+    "question": "在25米速射弹头重量抽查中，如果拔出的前3发弹头平均称重低于2.53克，会受到什么判罚？",
+    "target_doc": "27_25m_rfp_ammunition_velocity.md",
+    "expected_answer": "若 3 发弹头平均重量低于 2.53 克，判定为弹药理化指标不合格，直接取消比赛资格（DSQ）。",
+    "keywords": ["弹头称重", "平均重量低于2.53g", "弹药不合格", "DSQ"]
+  },
+  {
+    "id": "TC081",
+    "question": "2026年最新手枪握把规则中，10米气手枪和25米手枪的虎口托（Horn）最大长度分别限制为多少？",
+    "target_doc": "28_10m_25m_pistol_grip_details.md",
+    "expected_answer": "从握把最深点 C 点向前测量，10米气手枪虎口托最大不得超过 40 毫米（≤ 40 mm）；25米手枪最大不得超过 30 毫米（≤ 30 mm）。",
+    "keywords": ["手枪握把新规", "虎口托长度", "10米气手枪40mm", "25米手枪30mm", "C点测量"]
+  },
+  {
+    "id": "TC082",
+    "question": "2026年新规中，手枪握把虎口托后边缘切角与枪管中心线夹角不得小于多少度？",
+    "target_doc": "28_10m_25m_pistol_grip_details.md",
+    "expected_answer": "虎口托后端斜切边缘与枪管中心线水平方向的夹角必须大于或等于 45 度（≥ 45°），严禁出现平行延伸的平直后沿。",
+    "keywords": ["虎口托斜切", "45度角", "枪管中心线", "防非法支撑"]
+  },
+  {
+    "id": "TC083",
+    "question": "手枪握把后侧过渡区的曲率（D）为何严禁向上翘起或与枪管平行？",
+    "target_doc": "28_10m_25m_pistol_grip_details.md",
+    "expected_answer": "为防止握把通过向手背延伸或非自然包覆变相稳固手腕，曲率 D 必须严格保持向下倾斜，确保手腕在持枪及准备姿势下完全自由。",
+    "keywords": ["向下曲率D", "防包覆手部", "手腕自由", "手枪握把规范"]
+  },
+  {
+    "id": "TC084",
+    "question": "2026新规中，手枪掌托（Heel Rest）端部在手腕侧的斜切角度有何要求？其倒圆角最大半径是多少？",
+    "target_doc": "28_10m_25m_pistol_grip_details.md",
+    "expected_answer": "靠近手腕侧的掌托末端必须沿垂直方向切出大于等于 30 度（≥ 30°）的斜角；倒圆角半径最大不得超过 2 毫米（R ≤ 2 mm）。",
+    "keywords": ["掌托斜切30度", "倒角R≤2mm", "Heel Rest", "手腕完全自由"]
+  },
+  {
+    "id": "TC085",
+    "question": "飞碟多向及双向项目对霰弹弹丸装填重量上限、正公差及单颗直径上限有什么要求？",
+    "target_doc": "29_shotgun_cartridge_specs.md",
+    "expected_answer": "霰弹内弹丸总重量最大不得超过 24.0 克，允许 +0.5 克正公差（抽检平均不超过 24.5 克）；单颗弹丸最大直径不得超过 2.6 毫米。",
+    "keywords": ["飞碟霰弹", "装药量24克", "+0.5g公差", "弹丸直径2.6mm"]
+  },
+  {
+    "id": "TC086",
+    "question": "飞碟项目散弹内部的单个金属弹丸，其物理外形必须呈什么形状？",
+    "target_doc": "29_shotgun_cartridge_specs.md",
+    "expected_answer": "散弹内单个弹丸必须呈规则的球形（Spherical），可进行表面镀层处理。",
+    "keywords": ["弹丸外形", "规则球形", "Spherical", "飞碟弹药"]
+  },
+  {
+    "id": "TC087",
+    "question": "飞碟项目中绝对禁止使用什么火药和特定弹药类型？",
+    "target_doc": "29_shotgun_cartridge_specs.md",
+    "expected_answer": "严禁使用黑火药（Black Powder）；严禁使用任何示踪弹（Tracer Cartridges）、燃烧弹或爆炸弹。",
+    "keywords": ["黑火药禁用", "示踪弹禁用", "燃烧弹", "爆炸弹", "违规弹药"]
+  },
+  {
+    "id": "TC088",
+    "question": "10米气步枪和气手枪混合团体单决赛中，第18发（团队累计36发）和第21发（团队累计42发）结束时，分别淘汰哪两名？",
+    "target_doc": "30_10m_mixed_team_finals.md",
+    "expected_answer": "基础 20 发打完进入单发淘汰阶段，累计成绩最低的队伍率先淘汰获得第 4 名；继续射击后，累计成绩最低的队伍淘汰获得第 3 名（铜牌）。",
+    "keywords": ["10米混合团体决赛", "第4名淘汰", "第3名铜牌", "金银牌决战"]
+  },
+  {
+    "id": "TC089",
+    "question": "10米手枪混合团体决赛中，选手射击基础阶段和淘汰阶段在靶位上的单发限时分别是什么？",
+    "target_doc": "30_10m_mixed_team_finals.md",
+    "expected_answer": "基础阶段每组 5 发（每队10发）限时 250 秒；淘汰阶段单发/轮次依次射击限时 50 秒。",
+    "keywords": ["混合团体决赛", "基础阶段250秒", "淘汰阶段50秒", "单发限时"]
+  },
+  {
+    "id": "TC090",
+    "question": "飞碟多向与双向混合团体决赛中，每名队员最多射击多少靶？团队上限为多少靶？",
+    "target_doc": "31_shotgun_mixed_team_finals.md",
+    "expected_answer": "决赛中每名队员最多射击 20 靶，团队累积上限为 40 靶（每队 1 男 1 女）。",
+    "keywords": ["飞碟混合团体决赛", "每人20靶", "团队40靶上限", "4队同场"]
+  },
+  {
+    "id": "TC091",
+    "question": "飞碟混合团体决赛在完成团队第几靶时淘汰最后一支队伍并决出铜牌？",
+    "target_doc": "31_shotgun_mixed_team_finals.md",
+    "expected_answer": "在团队完成 30 靶（每名队员各射击 15 靶）后，累计中靶数最低的队伍被淘汰，获得铜牌（第 3 名）。",
+    "keywords": ["飞碟混合团体", "团队30靶", "铜牌决出", "淘汰第3名"]
+  },
+  {
+    "id": "TC092",
+    "question": "在飞碟混合团体决赛 40 靶中靶制下，平世界纪录的最高命中数是多少靶？",
+    "target_doc": "31_shotgun_mixed_team_finals.md",
+    "expected_answer": "团队 40 靶满分制下，决赛世界纪录/平世界纪录成绩为 37 中（由澳大利亚队于 2026 年创下）。",
+    "keywords": ["飞碟混合团体", "40靶制", "世界纪录37中", "Hits"]
+  },
+  {
+    "id": "TC093",
+    "question": "在25米手枪或速射比赛中，如果击发后弹着点未注册或电子靶显示故障，运动员应进行什么操作？",
+    "target_doc": "32_25m_est_malfunction_rules.md",
+    "expected_answer": "必须保持枪口指向安全射击区（靶区），不得触碰套筒/枪机/保险，并立即举手向现场裁判员（RO）示意。",
+    "keywords": ["电子靶故障", "枪口指向靶区", "不得触碰枪机", "举手示意裁判"]
+  },
+  {
+    "id": "TC094",
+    "question": "在25米手枪或速射中，由于运动员自身操作失误（如忘开保险、未松开握把保险等）导致子弹未击发，怎么判罚？",
+    "target_doc": "32_25m_est_malfunction_rules.md",
+    "expected_answer": "判定为非允许故障（Non-Allowable Malfunction, NAM），未击发的子弹直接裁定为 0 分 / 未中（MISS），不给予任何补射或重射。",
+    "keywords": ["非允许故障", "NAM", "0分", "MISS", "不予补射"]
+  },
+  {
+    "id": "TC095",
+    "question": "因电子靶系统自身故障（如绿灯计时或信号中断）导致整组速射受到影响，Jury 如何处理？成绩如何算？",
+    "target_doc": "32_25m_est_malfunction_rules.md",
+    "expected_answer": "速射组须打完本组 5 发后报告，严禁私自重射；由 RTS Jury 依系统日志及后台物理背纸核实，故障成立后手动恢复实际分值；靶位无法修复时移至备用靶位补射。",
+    "keywords": ["EST系统故障", "RTS Jury裁定", "控制纸带比对", "备用靶位", "成绩恢复"]
+  },
+  {
+    "id": "TC096",
+    "question": "步枪射击服厚度测量仪器施压标准是多少公斤？",
+    "target_doc": "17_rifle_clothing_specs.md",
+    "expected_answer": "使用符合 ISSF 规则 6.5.1 标准、施加 5.0 公斤（kg）重量砝码（测量面直径 30 毫米）的专用厚度测量仪进行测量。",
+    "keywords": ["厚度测量仪", "5.0公斤砝码", "30毫米测量面", "皮服厚度"]
+  },
+  {
+    "id": "TC097",
+    "question": "10米气步枪射击距离是多少？",
+    "target_doc": "04_10m_air_rifle_basics.md",
+    "expected_answer": "标准射击距离为 10 米（允许 ±0.05 米公差）。",
+    "keywords": ["10米气步枪", "射击距离", "10米", "公差±0.05米"]
+  },
+  {
+    "id": "TC098",
+    "question": "多向飞碟在资格赛中，碟靶从哪里抛出？",
+    "target_doc": "10_shotgun_trap_skeet_basics.md",
+    "expected_answer": "碟靶从距离射手前方地下壕沟内的 15 台抛靶机中，随机朝不同角度和高度抛出。",
+    "keywords": ["多向飞碟", "Trap", "地下壕沟", "15台抛靶机", "随机抛靶"]
+  },
+  {
+    "id": "TC099",
+    "question": "2026年奥运会射击比赛的裁判员每天津贴补贴是多少钱？",
+    "target_doc": "无",
+    "expected_answer": "对不起，知识库中未找到相关信息。",
+    "keywords": ["裁判津贴", "未提及", "测试拒答"]
+  },
+  {
+    "id": "TC100",
+    "question": "国际射联（ISSF）官方纪念品商店在哪里可以买到？",
+    "target_doc": "无",
+    "expected_answer": "对不起，知识库中未找到相关信息。",
+    "keywords": ["官方纪念品", "未提及", "测试拒答"]
+  },
+  {
+    "id": "TC101",
+    "question": "在50米步枪三姿比赛的姿势转换期间（比赛总计时仍在走），运动员可以在自己靶位上进行拉栓或干火空枪练习吗？",
+    "target_doc": "09_50m_rifle_3_positions.md",
+    "expected_answer": "允许进行。在连续的 90 分钟正式比赛时间内，运动员在其指定靶位上允许进行合规的拉栓与空枪干火练习（姿势转换或枪支调整时必须按规定插入安全旗）。",
+    "keywords": ["50米步枪三姿", "姿势转换", "干火练习", "拉栓", "安全旗"]
+  },
+  {
+    "id": "TC102",
+    "question": "在赛后随机抽检中，如果运动员的皮服被测出仅有1个测试板硬度不合格（如2.8mm），其余皆合格，会直接取消成绩（DSQ）吗？",
+    "target_doc": "02_rifle_clothing_stiffness.md",
+    "expected_answer": "不会直接取消（不直接 DSQ）。若复测仅有 1 个测试面板低于 3.0 mm 且其余面板合格，开具书面警告（EQ-Warning），允许保留当场成绩完成比赛，但后续比赛前必须整改并重新送检。",
+    "keywords": ["单面板不合格", "EQ-Warning", "不直接DSQ", "保留当场成绩", "赛后抽检"]
+  },
+  {
+    "id": "TC103",
+    "question": "在飞碟项目的资格赛中，每名运动员一轮中允许因枪支或弹药发生非人为“允许故障”并重新补射的次数上限是多少次？",
+    "target_doc": "10_shotgun_trap_skeet_basics.md",
+    "expected_answer": "资格赛阶段每名运动员在每轮（25靶）中，最多允许 2 次允许故障补射；同一轮中发生的第 3 次及以后的故障直接裁定为脱靶（LOST）。",
+    "keywords": ["飞碟允许故障", "每轮2次", " Allowable Malfunction", "第3次脱靶", "LOST"]
+  },
+  {
+    "id": "TC104",
+    "question": "10米气手枪/气步枪混合团体决赛中，若在淘汰临界点出现两队累计成绩平分进行同分附加赛（Shoot-off），是两名队员同时射击，还是各自派出一名队员？",
+    "target_doc": "30_10m_mixed_team_finals.md",
+    "expected_answer": "平分队伍的所有成员（即每队男女 2 名队员，共 4 人）必须全部在各自靶位上同时发射一发子弹（限时 50 秒），以每队两名队员的单发环值之和决定胜负。",
+    "keywords": ["混合团体附加赛", " Shoot-off", "2名队员同时发射", "单发环值之和", "50秒限时"]
+  },
+  {
+    "id": "TC105",
+    "question": "在进行25米手枪速射弹药初速检测时，如果运动员的枪突然损坏无法击发，会导致运动员被直接取消资格（DSQ）吗？",
+    "target_doc": "27_25m_rfp_ammunition_velocity.md",
+    "expected_answer": "在决赛前弹药检查中若发生枪支损坏或测试未通过，允许运动员更替并提供合格弹药/枪支；若最终无法提供合格弹药，记录为 DNS（Did Not Start，排名第8），而非 Qualification 阶段的 DSQ。",
+    "keywords": ["速射弹药检测", "枪支故障", "DNS", "排名第8", "非DSQ"]
+  },
+  {
+    "id": "TC106",
+    "question": "在申请电子靶分值复核（EST Challenge）时，裁判是通过什么技术手段来证明电子靶系统真的“有记录偏差”？",
+    "target_doc": "11_protests_and_appeals.md",
+    "expected_answer": "Jury 提取电子靶后方联动的控制纸带/背板控制卷带（Control Sheet）及系统日志，使用官方认证的光学对位规测量真实物理弹孔坐标，核对实际几何环值与系统显示是否一致。",
+    "keywords": ["EST Challenge", "控制纸带", "Control Sheet", "光学对位规", "物理弹孔坐标"]
+  },
+  {
+    "id": "TC107",
+    "question": "在50米步枪三姿决赛中，若运动员在跪姿射击一结束、CRO发出“START”指令前提前开始卧姿的姿势转换并调整枪支，会面临什么处罚？",
+    "target_doc": "21_50m_rifle_3_positions_finals.md",
+    "expected_answer": "属于未按指令操作的违规行为。在非允许时间或未接指令前擅自调整枪支/转换姿势，裁判组将给予口头/黄卡警告，再次违规将给予扣分或取消资格处罚。",
+    "keywords": ["三姿决赛违规", "未按指令转换", "提前调整枪支", "警告扣分"]
+  },
+  {
+    "id": "TC108",
+    "question": "飞碟决赛的弹药检测程序在2026年新规下有什么特别的时间和流程规定？",
+    "target_doc": "29_shotgun_cartridge_specs.md",
+    "expected_answer": "所有 8 名决赛选手必须在决赛正式开始前的至少 30 分钟（报到时间），将拟使用的所有霰弹一次性提交，装入专用的“决赛弹药控制盒”集中封存抽检并保管。",
+    "keywords": ["飞碟决赛弹药", "提前30分钟", "决赛弹药控制盒", "集中封存", "抽检"]
+  },
+  {
+    "id": "TC109",
+    "question": "手枪握把新规中限制了后部“虎口托”的长度，其测量原点C点（手掌接触握把最深点）在实际验枪中是如何精确界定的？",
+    "target_doc": "28_10m_25m_pistol_grip_details.md",
+    "expected_answer": "C点（Point C）定义为握把接触手掌顶部的最深点（deepest part of the grip），即自照门下方贴合手背虎口区域弧度最深处开始向前方测量。",
+    "keywords": ["C点定义", "Point C", "握把最深点", "虎口托长度", "测量原点"]
+  },
+  {
+    "id": "TC110",
+    "question": "在25米手枪速射比赛中，运动员如果多次违反“45度预备姿势”抢起枪，惩罚会如何升级？",
+    "target_doc": "05_25m_rapid_fire_pistol.md",
+    "expected_answer": "同一半场内首次违规给予黄牌警告并重射该组（按最低环值计）；第二次违规给予警告、重射并额外扣除 2 环；第三次违规直接出示红卡取消比赛资格（DSQ）。",
+    "keywords": ["45度姿势违规", "抢起枪", "首次警告重射", "二次扣2环", "三次DSQ"]
+  },
+  {
+    "id": "TC111",
+    "question": "在兴奋剂检测中，若射手被查出在赛外（Out-of-Competition）使用了降低心率的β-受体阻断剂，但他辩称这是非比赛期间出于治疗高血压的合理医学需要，这可以获得免罚吗？",
+    "target_doc": "13_doping_control_and_medical.md",
+    "expected_answer": "绝对不能免罚。β-受体阻断剂在射击项目中属于赛内及赛外全程绝对禁用的 P1 类物质，必须事先（至少提前30天）申请并获得正式 TUE，不接受事后追溯性 TUE 申请。",
+    "keywords": ["β-受体阻断剂", "赛外禁用", "全程禁用", "不接受事后病历", "兴奋剂违规"]
+  },
+  {
+    "id": "TC112",
+    "question": "在飞碟决赛中引入了 VAR 视频裁判，运动员或教练自己可以主动申请查看慢动作回放吗？挑战成功会扣除额度吗？",
+    "target_doc": "03_tech_var_aiming.md",
+    "expected_answer": "运动员（在下一名击发前举手）或教练（出示VAR卡）可申请 VAR 复核。2026 ISSF 规则体系未设立网球式“定额挑战卡”或失败罚靶机制，符合时限要求的争议均可依规申请。",
+    "keywords": ["飞碟VAR", "申请时限", "取消定额挑战", "慢动作复核", "裁判终裁"]
+  },
+  {
+    "id": "TC113",
+    "question": "在飞碟（Trap / Skeet）决赛期间，如果运动员对除靶碟击中/未中技术判定以外的其他事项提出抗议且被驳回，会受到什么惩罚？",
+    "target_doc": "11_protests_and_appeals.md",
+    "expected_answer": "飞碟决赛中，对靶碟命中技术判定以外的其他事项提出抗议若被驳回，将启动惩罚红线，直接扣除该运动员（或组别）最后 2 个“中靶（HIT）”积分（改判为 LOST）。",
+    "keywords": ["飞碟决赛抗议", "非技术抗议驳回", "惩罚红线", "扣除最后2个HIT", "改判LOST"]
+  },
+  {
+    "id": "TC114",
+    "question": "在飞碟决赛前，运动员已经按时提交了全部弹药，但他因为堵车在决赛前 14 分钟才赶到现场向 Jury 报到，这会有什么处罚？",
+    "target_doc": "23_shotgun_timeout_and_modifications.md",
+    "expected_answer": "运动员必须在赛前 15 分钟完成人身报到。逾期报到但赶在比赛开始前到达者，将在决赛中被直接扣除第一个中靶成绩（首个击中的目标改判为未中/LOST）。",
+    "keywords": ["飞碟决赛报到", "赛前15分钟", "逾期报到", "扣除首个HIT", "改判LOST"]
+  },
+  {
+    "id": "TC115",
+    "question": "在步枪项目装备检查中，我的射击外套纽扣间距为85毫米。但我由于怕冷，在皮服里穿了2层厚度分别为1.2毫米和1.0毫米的紧身速干衣，这能算合格并拿到验枪贴纸吗？",
+    "target_doc": "20_rifle_clothing_fasteners_undergarments.md",
+    "expected_answer": "不合格。虽两层内衣总厚度 2.2mm ≤ 5.0mm 限额，但规则严禁穿着具有塑身/压缩作用的紧身衣/压缩衣，且多层穿搭不得提供非法身体支撑，赛后抽检若发现体表支撑或违规压缩衣将面临 DSQ 处罚。",
+    "keywords": ["贴身内衣", "压缩衣禁用", "紧身衣禁用", "非法支撑", "装备检查不合格"]
+  },
+  {
+    "id": "TC116",
+    "question": "我有一把25米中心发火手枪。为了持枪手感更稳，我打算将这把枪握把后边的虎口托长度定制为 35 毫米。请问在2026年新规下，这能通过赛前验枪吗？",
+    "target_doc": "28_10m_25m_pistol_grip_details.md",
+    "expected_answer": "不能通过。根据 2026 年手枪握把新规，25米手枪（含中心发火手枪）虎口托（Horn）从 C 点向前测量的最大长度不得超过 30 毫米（35 毫米已超标）。",
+    "keywords": ["25米手枪握把", "虎口托30mm上限", "35mm超标", "验枪不合格"]
+  },
+  {
+    "id": "TC117",
+    "question": "我的气步枪钢制压缩气瓶是 2015 年 10 月出厂的。今天（2026年8月）我带去参加大赛的强制装备检查，请问验枪员会给我贴上合格贴纸吗？",
+    "target_doc": "16_equipment_control_workflow.md",
+    "expected_answer": "不会贴贴纸（判定不合格）。压缩气瓶的安全有效期最长不得超过制造厂规定的 10 年，2015年10月出厂至2026年8月已使用超 10 年，超期气瓶严禁带入靶场。",
+    "keywords": ["压缩气瓶", "10年有效期", "超期气瓶", "验枪不合格", "靶场安全"]
+  },
+  {
+    "id": "TC118",
+    "question": "在手枪决赛进行时，如果我打出了一发绝对环值为 10.0 环的成绩。请问在女子 25 米手枪决赛和男子 25 米手枪速射决赛中，这发子弹分别会被记为 Hit（中靶）还是 Miss（未中）？",
+    "target_doc": "19_25m_womens_pistol_hit_miss.md",
+    "expected_answer": "女子 25 米手枪决赛 Hit 判定线为 ≥ 10.2 环，打出 10.0 环记为 Miss（0分）；男子 25 米手枪速射决赛 Hit 判定线为 ≥ 9.7 环，打出 10.0 环记为 Hit（1分）。",
+    "keywords": ["女子25米手枪决赛", "男子25米手枪速射决赛", "Hit判定线", "10.2环", "9.7环"]
+  },
+  {
+    "id": "TC119",
+    "question": "在飞碟双向混合团体决赛中，我的队伍一路过关斩将拿到了银牌。请问在这场决赛中，我和我的搭档一共击发了多少枪？我们最高有可能合力打中多少个靶子？",
+    "target_doc": "31_shotgun_mixed_team_finals.md",
+    "expected_answer": "拿到银牌意味着打满了决赛全部 40 靶（第1-20靶，21-30靶，31-40靶）；飞碟决赛每靶限发 1 枪，因此两人一共击发 40 枪，最高可命中 40 个靶子（Hits）。",
+    "keywords": ["飞碟混合团体决赛", "银牌40靶", "击发40枪", "最高40中"]
+  },
+  {
+    "id": "TC120",
+    "question": "在10米气手枪混合团体决赛的单发淘汰阶段（限时50秒）中，如果队友在准备击发时突发气瓶漏气故障，大屏幕上的50秒倒计时会暂停吗？未发生故障的另一名队员应该怎么做？",
+    "target_doc": "30_10m_mixed_team_finals.md",
+    "expected_answer": "故障队员须保持枪口指向靶区并举手示意 Jury，裁判会干预暂停流程；核实为允许故障后，裁判组给予特定修复/补射时间，在安全指令下完成补射并汇总成绩。",
+    "keywords": ["混合团体决赛故障", "允许故障", "举手示意Jury", "暂停干预", "独立补射"]
+  },
+  {
+    "id": "TC121",
+    "question": "在飞碟多向决赛中，教练向主裁判申请了一次 VAR 挑战并成功改判。请问该队还会被扣除挑战次数吗？另外，在裁判观看视频回放的比赛空档里，教练能对选手说话指导吗？",
+    "target_doc": "03_tech_var_aiming.md",
+    "expected_answer": "2026 规则未设网球式“挑战扣额度”机制，符合时限即可申请；但在 VAR 复核期间属于裁判执裁流程，严禁场外教练对运动员进行任何口头战术指导或手势暗示，违者按非法指导（Illegal Coaching）重罚。",
+    "keywords": ["飞碟VAR复核", "非技术暂停", "严禁非法指导", "Illegal Coaching", "黄卡/红牌扣分"]
+  },
+  {
+    "id": "TC122",
+    "question": "在飞碟多向个人决赛中，如果我最终获得了铜牌（第三名）。请问在这场决赛里，我总共射击了多少个靶子？Jury在哪些节点进行了淘汰？",
+    "target_doc": "26_shotgun_finals_target_counts.md",
+    "expected_answer": "获得铜牌总共射击了 25 个靶子。淘汰节点为：第 10 靶结束淘汰第 8 和第 7 名；第 15 靶结束淘汰第 6 和第 5 名；第 20 靶结束淘汰第 4 名；第 25 靶结束决定第 3 名（获得铜牌）。",
+    "keywords": ["多向飞碟决赛", "铜牌25靶", "淘汰节点", "10靶", "15靶", "20靶", "25靶"]
+  },
+  {
+    "id": "TC123",
+    "question": "10米气步枪个人决赛淘汰时如果第一发同分附加赛（Shoot-off）也打平了，裁判会通过比对他们之前打出的内十环（X环）数量来打破平分吗？",
+    "target_doc": "18_10m_individual_finals.md",
+    "expected_answer": "绝对不会。10米个人决赛附加赛绝对禁止使用内十环或倒计数规则；若第一发附加赛打平，平分选手必须继续射击第二发单发附加赛（限时50秒），直至分出胜负。",
+    "keywords": ["10米决赛附加赛", "绝对排他红线", "严禁内十环", "严禁倒计数", "无限单发决胜"]
+  },
+  {
+    "id": "TC124",
+    "question": "实弹射击期间为了防枪声暴音，同时方便跟裁判和场外教练交流，运动员可以戴着内置了蓝牙通话、或者无线对讲接收功能的主动电子消音耳罩上场打比赛吗？",
+    "target_doc": "25_clothing_standards_and_bare_feet_prohibition.md",
+    "expected_answer": "绝对禁止。运动员在比赛场地内严禁佩戴任何带有声音放大或无线/有线接收通讯功能（蓝牙、无线电、FM等）的耳罩或耳塞，仅允许佩戴纯物理被动隔音耳罩，违者将受警告、扣分甚至 DSQ 处分。",
+    "keywords": ["通讯耳罩禁用", "蓝牙耳罩禁用", "物理隔音耳罩", "听力保护", "非法指导"]
+  },
+  {
+    "id": "TC125",
+    "question": "在25米手枪速射弹药检测中，第一发拔出来的弹头称重为 2.50 克。裁判又拔了 2 发，分别称重为 2.54 克和 2.56 克。请问我的弹药最终会被判定为合格吗？",
+    "target_doc": "27_25m_rfp_ammunition_velocity.md",
+    "expected_answer": "判定为合格。称重复测是以 3 发弹头的平均重量为准。本例中 3 发弹头平均重量为 (2.50 + 2.54 + 2.56) / 3 = 2.533 克，达到了 ≥ 2.53 克的标准。",
+    "keywords": ["速射弹药检测", "弹头称重复测", "3发平均重量", "2.533g", "合格判定"]
+  },
+  {
+    "id": "TC126",
+    "question": "在赛后随机抽检中，如果我打完比赛身上全都是汗，我能先回更衣室脱下厚重的皮背心、把枪装包放好后再拿去抽检室吗？会有处罚吗？",
+    "target_doc": "16_equipment_control_workflow.md",
+    "expected_answer": "绝对不可以。被抽中赛后复查必须立即、直接（without delay）携带原班枪支及装备前往抽检室，严禁中途更衣、脱皮服、私自调整枪支或打包，违者由 Jury 直接出示红卡取消比赛成绩及资格（DSQ）。",
+    "keywords": ["赛后随机抽检", "即时报到", "严禁更衣打包", "规避抽检", "红卡DSQ"]
+  },
+  {
+    "id": "TC127",
+    "question": "飞碟双向混合团体决赛最后冠亚军打平同分附加赛，第一轮中我队男中女没中，对方男没中女中。第一轮完后，我队是直接赢得金牌，还是双方平手继续打？",
+    "target_doc": "31_shotgun_mixed_team_finals.md",
+    "expected_answer": "双方打平，必须继续打下一轮。飞碟混合团体同分附加赛按靶位顺序逐靶进行（男队员先打，女队员后打，每轮团队共 2 靶），首轮两队总命中数均为 1 中（1+0 vs 0+1），平分须继续加赛。",
+    "keywords": ["飞碟混合团体", "Shoot-off", "团队复合成绩", "男女各1靶", "平分加赛"]
+  },
+  {
+    "id": "TC128",
+    "question": "在男子10米气手枪比赛中，如果我在资格赛和决赛里同样打中了一发绝对压线、精确值为 10.4 环的子弹。请问在这两场比赛里，这发子弹分别会以多少环计入我的成绩？",
+    "target_doc": "15_scoring_decimal_and_integer.md",
+    "expected_answer": "在采用整数计分的资格赛中，该发子弹直接记为整数 10 环（同时记 1 个内十环 `10*`）；在采用小数计分的决赛里，该发子弹直接精准登记为 10.4 环计入总分。",
+    "keywords": ["10米气手枪", "资格赛整数计分", "决赛小数计分", "10环", "10.4环"]
+  },
+  {
+    "id": "TC129",
+    "question": "步枪皮衣背后肩膀下面、胛骨那一带硬邦邦的支撑垫板，验枪的时候软硬度有什么测试要求？测多少秒？",
+    "target_doc": "02_rifle_clothing_stiffness.md",
+    "expected_answer": "该区域属于外套上部/较硬区域（Upper / Stiffer Areas），使用标准刚度仪 1000g 重锤垂直下压，测试凹陷下沉量必须 ≥ 3.0 毫米，每个测量点最长测试限时为 30 秒。",
+    "keywords": ["皮服硬度", " Upper/Stiffer Areas", "30秒限时", "3.0mm下沉量", "1000g重锤"]
+  },
+  {
+    "id": "TC130",
+    "question": "射击完之后枪口和上弹的地方要穿过去、露在外面的一条很亮的长塑料线，如果不插这个东西上场打比赛会怎么罚？",
+    "target_doc": "06_safety_and_range_discipline.md",
+    "expected_answer": "该工具为安全旗（Safety Flag / ECI）。未按规定插入安全旗，裁判组首先给予警告（WARNING）并责令改正；收到警告后仍拒绝配合或拒不改正者，直接判罚取消比赛资格（DSQ）。",
+    "keywords": ["安全旗", "ECI", "未按规定使用", "警告", "拒绝配合DSQ"]
+  },
+  {
+    "id": "TC131",
+    "question": "听说新规里步枪皮鞋在脚后跟、脚后掌（踝关节）周围不能包得像石膏一样太紧、要有活动空间的裁剪要求叫什么？2026年有什么规定？",
+    "target_doc": "07_shooting_shoes_and_gloves.md",
+    "expected_answer": "步枪射击鞋最高点不得超过鞋底长度的 2/3（允许覆盖脚踝的高帮靴）；但鞋底前脚掌必须通过 15 N·m 扭矩下 ≥22.5° 的柔韧性弯曲测试，严禁使用刚性不可弯曲插入物。",
+    "keywords": ["步枪射击鞋", "鞋帮高度2/3", "鞋底柔韧性", "弯曲度测试22.5度"]
+  },
+  {
+    "id": "TC132",
+    "question": "气手枪木头把子最上面、贴着手虎口那块延伸出来顶着手背的木板，它后面那个斜着切开的角度有什么要求？",
+    "target_doc": "28_10m_25m_pistol_grip_details.md",
+    "expected_answer": "虎口托（Horn）后边缘的斜切角度与枪管中心线水平方向的夹角必须大于或等于 45 度（≥ 45°），严禁出现平行于枪管延伸的平直后沿。",
+    "keywords": ["手枪虎口托", "Horn", "后缘斜切", "≥45度角", "枪管中心线"]
+  },
+  {
+    "id": "TC133",
+    "question": "射击皮外套身上衣服缝线拼接、或者是重合贴合的地方，拿卡尺夹紧了测的总厚度最大不能超过多少？",
+    "target_doc": "17_rifle_clothing_specs.md",
+    "expected_answer": "在无法分离测量的重合处、缝线或加固片等双层/重叠区域，专用厚度测量仪测得的最大厚度不得超过 5.0 毫米（单层不得超过 2.5 毫米）。",
+    "keywords": ["皮服厚度", "双层重叠厚度", "最大5.0毫米", "缝线重合处"]
+  },
+  {
+    "id": "TC134",
+    "question": "在男子10米气手枪比赛中，如果我在资格赛和决赛里同样打中了一发绝对压线、精确值为 10.4 环的子弹。请问在这两场比赛里，这发子弹分别会以多少环计入我的成绩？",
+    "target_doc": "15_scoring_decimal_and_integer.md",
+    "expected_answer": "在采用整数计分的资格赛中，直接精准记为整数 10 环（同时记 1 个内十环）；在采用小数计分的决赛里，直接精准登记为 10.4 环。",
+    "keywords": ["10米气手枪", "资格赛整数10环", "决赛小数10.4环", "计分模式切换"]
+  },
+  {
+    "id": "TC135",
+    "question": "打比赛的时候枪要是卡壳了或者子弹“瞎火”了，算谁的问题？能重新打这一枪吗？次数有限制吗？",
+    "target_doc": "32_25m_est_malfunction_rules.md",
+    "expected_answer": "若属弹药哑弹、机械故障等允许故障（AM），按规举手示意裁判，核实后允许补射。资格赛各阶段限 1 次，决赛整场限 1 次；若属忘开保险等自身操作失误（NAM），直接记 0 分（Miss），不予补射。",
+    "keywords": ["允许故障", "AM", "哑弹/卡壳", "补射次数限制", "非允许故障NAM"]
+  },
+  {
+    "id": "TC136",
+    "question": "气手枪木质握把后面卡在“大拇指和食指分叉处”的那块托板，新规里的长度极限是多少毫米？",
+    "target_doc": "28_10m_25m_pistol_grip_details.md",
+    "expected_answer": "该部件为虎口托（Horn）。自手掌最深接触点 C 点向前测量，10米气手枪最大不得超过 40 毫米（25米手枪不得超过 30 毫米）。",
+    "keywords": ["虎口托", "Horn", "10米气手枪40mm", "25米手枪30mm", "C点测量"]
+  },
+  {
+    "id": "TC137",
+    "question": "在步枪三姿决赛立姿单发淘汰第一发（第31发）打完后，会淘汰几个人？如果打平出现三个并列第7名，会通过比较他们之前的“内十环（X环）”多寡来淘汰人吗？",
+    "target_doc": "21_50m_rifle_3_positions_finals.md",
+    "expected_answer": "第 30 发结束已淘汰第 8 和第 7 名；第 31 发结束淘汰第 6 名（淘汰 1 人）。若出现平分绝不比较内十环，平分选手必须在立姿下进行单发附加赛（限时50秒）决出胜负。",
+    "keywords": ["三姿决赛淘汰", "第31发淘汰第6名", "严禁比较内十环", "立姿单发附加赛"]
+  },
+  {
+    "id": "TC138",
+    "question": "飞碟双向混合团体决赛最后冠亚军两支队伍打平同分附加赛（Shoot-off）。第一轮中我队男队员打中、女队员脱靶，对方男队员脱靶、女队员打中。请问第一轮结束后谁赢了？",
+    "target_doc": "31_shotgun_mixed_team_finals.md",
+    "expected_answer": "双方打平，必须继续打下一轮。团体附加赛为整轮男女成绩复合判定（每轮每队共 2 靶）。第一轮两队总命中数均为 1 中（1+0 vs 0+1），平分须继续加赛。",
+    "keywords": ["飞碟混合团体附加赛", " Shoot-off", "复合判定", "1中平手", "继续加赛"]
+  },
+  {
+    "id": "TC139",
+    "question": "在赛后随机抽检中，如果我打完比赛身上全都是汗，我能先回更衣室脱下厚重的皮背心、把枪装包放好后再拿去抽检室吗？会有处罚吗？",
+    "target_doc": "16_equipment_control_workflow.md",
+    "expected_answer": "绝对不可以。被抽中赛后复查必须立即、直接携带原枪及装备前往抽检室，严禁中途更衣、脱皮服、私自调整枪支或打包装箱，违者由 Jury 直接出示红卡取消比赛成绩及资格（DSQ）。",
+    "keywords": ["赛后随机抽检", "即时报到", "严禁更衣装包", "红卡DSQ", "规避抽检"]
+  }
+]
