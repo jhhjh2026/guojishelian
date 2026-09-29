@@ -1,0 +1,70 @@
+---
+title: "组委会竞赛官员职责与职能 (Organizing Committee Competition Officials)"
+issf_rule_book: "ISSF General Technical Rules (Edition 2025 (Second Print 07/2026), Effective 1 July 2026)"
+rule_range: "Chapter 6 (Rule 6.9.1 – Rule 6.9.4)"
+tags: ["组委会官员", "主靶场官CRO", "靶场官RO", "主RTS官CRTSO", "RTS官RTSO", "Form IR", "职责职能", "2026修订"]
+version: "ISSF 2026 Official Complete Edition"
+---
+
+# ISSF 组委会竞赛官员职责与职能规范 (Rule 6.9)
+
+> **标准依据**：本规则依据国际射击运动联合会（ISSF）《通用技术规则》（*ISSF General Technical Rules, Edition 2025 (Second Print 07/2026), Effective 1 July 2026*）第 6.9 节（Rule 6.9.1 – 6.9.4）整理编制，系统规范组委会任命的主靶场官（CRO）、靶场官（RO）、主 RTS 官（CRTSO）及 RTS 官（RTSO）的岗位设置标准、现场执裁工作流、事件台账记录（Form IR）及行为纪律红线。
+
+---
+
+## 一、竞赛官员体系与岗位设置速查（Rule 6.9 总览）
+
+| 岗位简称 | 官方全称 | 人员配备标准 | 适用项目限制 | 汇报/管辖对象 |
+| :--- | :--- | :--- | :--- | :--- |
+| **CRO** | **主靶场官**<br>(Chief Range Officer) | **每个靶场 1 名**<br>*(强烈建议配 1 名助理 CRO)* | **飞碟项目所有靶场合计仅设 1 名 CRO** | 统管该靶场所有 RO 及靶场辅助人员；向竞赛仲裁协作汇报 |
+| **RO** | **靶场官**<br>(Range Officer) | **每个靶位段（Section）或每 10 个射击位配备 1 名** | **飞碟项目不适用**（飞碟由裁判 Referee 履职） | 对 CRO 负责；现场对接仲裁（Jury） |
+| **CRTSO** | **主 RTS 官**<br>(Chief RTS Officer) | **每届锦标赛 1 名** | 全项目通用 | 统管全部 RTSO 及成绩、报名技术人员；对成绩总负责 |
+| **RTSO** | **RTS 官**<br>(RTS Officer) | **每个用于资格赛的靶场配备 1 名** | **飞碟项目不适用** | 与 RTS 仲裁、竞赛仲裁、RO 及官方成绩提供商协同 |
+
+---
+
+## 二、主靶场官职责 (Rule 6.9.1 Chief Range Officers - CRO)
+
+- **人员统管与赛事总责**：CRO 统领所属靶场的所有靶场官（RO）与现场保障人员，对该靶场射击赛事的正常、安全、合规运行负全面管理总责；
+- **口令下达与仲裁协同**：负责**统一下达所有靶场口令（Range Commands）**，并确保靶场裁判团队与 ISSF 仲裁（Jury）之间保持紧密协作与顺畅沟通；
+- **设备抢修与物资保障**：负责在赛中迅速组织排除、纠正任何设备与靶机靶标故障，统筹调配靶场运行所需的技术人员、维修人员与物资耗材；
+- **助理 CRO 设置与事件记录**：强烈建议组委会为 CRO 配备一名**助理 CRO（Assistant CRO）**作为副手；助理 CRO 主要负责管理靶场技术文档，并专门负责填写和维护**《靶场事件报告表》（Form IR - Range Incident Report）**，准确记录赛中发生的所有突发与异常情况。
+
+---
+
+## 三、靶场官职责与行为红线 (Rule 6.9.2 Range Officers - RO)
+
+*(注：飞碟项目不设 RO，由飞碟裁判 Referee 履职)*
+
+靶场官在其受托管辖的靶位段内对 CRO 负责，必须严格履行以下法定工作流与职责：
+
+- **a) 检录核验**：严格对照出发名单（Start List）核验运动员姓名与**号码布（Bib Number）**；
+- **b) 检查标识**：确保运动员枪支、服装、配件已通过装备控制检查并获批准（具有防伪封条与控制卡）；
+- **c) 姿势监察**：巡视运动员射击姿势与动作规范，遇潜在违规立即向仲裁报告；
+- **d) 执行口令**：确保 CRO 下达的口令得到运动员与现场人员的严格执行；
+- **e) 突发处置与抗议接收**：针对击发故障、外来干扰等突发事件采取即时处置措施；**接收口头抗议并立即报告仲裁委员**；
+- **f) 事件详细登记（Form IR）**：必须将所有**不规范行为、干扰、判罚扣分、故障、交叉射击（Cross-fires / 串靶）、补偿的额外时间、批准的重复射击**等事实，完整记录在**《靶场事件报告表》（Form IR）**上，并在对应的靶纸、打印纸条或电子靶记录单上进行规范签注；
+- **g) 执裁纪律红线（严禁谈论成绩）**：**RO 严禁在比赛期间与运动员进行任何不必要的交谈，严禁对运动员的得分、命中情况或比赛成绩发表任何评论**。
+
+---
+
+## 四、主 RTS 官职责 (Rule 6.9.3 Chief RTS Officer - CRTSO)
+
+- **任命与人员统管**：每届锦标赛任命 1 名主成绩、计时与计分官（CRTSO），全面统领所有 RTSO、成绩录入员、检录及报名技术工作人员；
+- **成绩处理总责**：CRTSO 对锦标赛**所有项目计分系统、计时监控、成绩处理与官方成绩册发布的准确性负总责**。
+
+---
+
+## 五、RTS 官职责 (Rule 6.9.4 RTS Officers - RTSO)
+
+*(注：飞碟项目不设 RTSO)*
+
+- **岗位配置**：每个承担资格赛（Qualification）任务的步枪、手枪、移动靶靶场均应指派 1 名 RTSO；
+- **协同支撑**：RTSO 负责与 **RTS 仲裁、竞赛仲裁、现场靶场官（RO）以及官方成绩系统提供商（Official Results Provider）** 协同工作，保障本靶场计分数据的稳定传输、数据比对与即时处理。
+
+---
+
+> **官方文献索引**：
+> 1. *ISSF General Technical Rules (Edition 2025 (Second Print 07/2026), Effective 1 July 2026)*：Rule 6.9 *Organizing Committee Competition Officials* (Rule 6.9.1 – Rule 6.9.4, pp. 238–240).
+> 2. *ISSF Forms and Documentation (Edition 2025 (Second Print 07/2026), Effective 1 July 2026)*：Form IR (*Range Incident Report*).
+> 3. 本文件为依据 ISSF 官方正本核对修订之完整中文法定技术规范，条文最终法律效力与官方仲裁解释以国际射击运动联合会（ISSF）官方英文正本为准（https://www.issf-sports.org）。
